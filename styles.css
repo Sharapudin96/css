@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+
+   background-color: #f1f1f1;
+
+   font-size: 16px;
+   font-weight: normal;
+   font-family: 'Roboto', sans-serif;
+   
+    /*font: normal 16px 'Roboto', sans-serif;*/
+   /*font-family: 'Lucida Sans', 'Lucida Sans Regular','Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+}
+
+a {
+color: black;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+a:active {
+color: blue;
+}
+
+/*a:visited  {
+color: gray;
+}*/
+
+.card {
+    background-color: #86898f;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 14px brown;
+}
+
+.info p{
+color #86898f
+margin: 0;
+font-style: italic;
+
+}
+
+.container {
+    max-width: 25%;
+    margin: left;
+}
+.social {
+ 
+ padding: 5px 7px 10px 15px;  
+ border: 5px solid brown;
+ border-bottom-style: dotted;
+ border-bottom-color: green;
+ margin: 15px;
+}
+
+.list {
+    padding: 0 20px;
+}
+.list li {
+    color: #86898f;
+    margin-bottom: 18px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table .temp {
+    color: #86898f;
+}
+
+.table td:nth-child(1),
+.table td:nth-child(2), 
+.table td:nth-child(3) {
+   color: #86898f; 
+}
